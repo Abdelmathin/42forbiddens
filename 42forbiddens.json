@@ -1,0 +1,82 @@
+{
+	"libft":
+		{
+			"mandatory":
+				[
+					"malloc", "free", "write"
+				],
+			"bonus":
+				[
+					"malloc", "free", "write"
+				]
+		},
+	"get_next_line":
+		{
+			"mandatory":
+				[
+					"malloc", "free", "read"
+				],
+			"bonus":
+				[
+					"malloc", "free", "read"
+				]
+		},
+	"ft_printf":
+		{
+			"mandatory":
+				[
+					"malloc", "free", "write",
+					"va_start", "va_arg", "va_copy", "va_end"
+				],
+			"bonus":
+				[
+					"malloc", "free", "write",
+					"va_start", "va_arg", "va_copy", "va_end"
+				]
+		},
+	"push_swap":
+		{
+			"mandatory":
+				[
+					"read", "write", "malloc", "free", "exit"
+				],
+			"bonus":
+				[
+					"read", "write", "malloc", "free", "exit"
+				]
+		},
+	"minitalk":
+		{
+			"mandatory":
+				[
+					"write", "signal", "sigemptyset", "sigaddset",
+					"sigaction", "kill", "getpid", "malloc", "free",
+					"pause", "sleep", "usleep", "exit"
+				],
+			"bonus":
+				[
+					"write", "signal", "sigemptyset", "sigaddset",
+					"sigaction", "kill", "getpid", "malloc", "free",
+					"pause", "sleep", "usleep", "exit"
+				]
+		},
+	"philosophers":
+		{
+			"mandatory":
+				[
+					"memset", "printf", "malloc", "free", "write",
+					"usleep", "gettimeofday", "pthread_create",
+					"pthread_detach", "pthread_join", "pthread_mutex_init",
+					"pthread_mutex_destroy", "pthread_mutex_lock",
+					"pthread_mutex_unlock"
+				],
+			"bonus":
+				[
+					"memset", "pthread_create", "free", "write", "fork",
+					"kill", "exit", "usleep", "pthread_detach", "sem_unlink"
+					"pthread_join", "printf", "gettimeofday", "waitpid",
+					"sem_open", "sem_close", "sem_post", "sem_wait", "malloc"
+				]
+		}
+	
+}
